@@ -9,6 +9,183 @@
     <script src="./index.js"></script>
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="div-logo">
+                    <a class="circle-logo" href="#">
+                        <img src="./assets/logos/circle.svg" alt="logo-circle">
+                    </a>
+                </div>
+                <div class="div-menu">
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="div-blue-button">
+                    <button class="blue-button" onclick="location.href='#contact-us'">Contact Us</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Empower Your Business With Stunning Design!</h1>
+                <p>
+                    Circle is a digital design and development studio. 
+                    <br>
+                    We design and develop astonishing websites and mobile apps.
+                </p>
+                <button class="blue-button" href="#">Get in touch</button>
+                <button class="secondary-button" onclick="location.href='#projects'">See our work</button>
+            </div>
+            <div class="hero-images">
+                <img src="./assets/hero-section/hero-image.png" alt="hero image">
+                <img src="./assets/hero-section/card-1.png" alt="credit card">
+                <img src="./assets/hero-section/card-2.png" alt="project accepted">
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <a href="https://www.airbnb.com" target="_blank">
+            <img src="./assets/logos/airbnb-logo.svg" alt="Airbnb Logo">
+        </a>
+        <a href="https://www.google.com" target="_blank">
+            <img src="./assets/logos/google-logo.svg" alt="google-logo">
+        </a>
+        <a href="https://www.microsoft.com" target="_blank">
+            <img src="./assets/logos/microsoft-logo.svg" alt="microsoft-logo">
+        </a>
+        <a href="https://www.fedex.com" target="_blank">
+            <img src="./assets/logos/fedex-logo.svg" alt="fedex-logo">
+        </a>
+        <a href="https://www.amazon.com" target="_blank">
+            <img src="./assets/logos/amazon-logo.svg" alt="amazon-logo">
+        </a>
+    </section>
+
+    <section class="recent-projects">
+        <h2>Recent Projects</h2>
+        <div class="recent-projects-container">
+            <article class="recent-projects-article">
+                <div class="card">
+                    <img src="./assets/projects-section/1.jpg" alt="imagen-project-1">
+                    <h3>Simplify</h3>
+                    <p>UI Design & App development</p>
+                    <a href="./pages/project-Page/projectPage.html" target="_blank">Learn more</a>
+                </div>
+            </article>
+            <article class="recent-projects-article">
+                <div class="card">
+                    <img src="./assets/projects-section/2.jpg" alt="imagen-project-2">
+                    <h3>Dashcoin</h3>
+                    <p>Web development</p>
+                    <a href="./pages/project-Page/projectPage.html" target="_blank">Learn more</a>
+                </div>
+            </article>
+            <article class="recent-projects-article">
+                <div class="card">
+                    <img src="./assets/projects-section/3.jpg" alt="imagen-project-3">
+                    <h3>Vectorify</h3>
+                    <p>User Experience Design</p>
+                    <a href="./pages/project-Page/projectPage.html" target="_blank">Learn more</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="testimonial-section" id="testimonial">
+        
+            <img class="memoji-1" src="./assets/testimonial-section/memoji-1.png" alt="memoji-1">
+            <img class="memoji-2" src="./assets/testimonial-section/memoji-2.png" alt="memoji-2">
+            <img class="memoji-3" src="./assets/testimonial-section/memoji-3.png" alt="memoji-3">
+            <img class="memoji-4" src="./assets/testimonial-section/memoji-4.png" alt="memoji-4">
+        
+        <div class="testimonial-content">
+            <h3>Hear What Our Clients Have to Say</h3>
+            <p>
+                “Circle helped us through every stage of our startup
+                <br>
+                We really enjoyed working with you”
+            </p>
+            <div class="client-information">
+                <img class="kristin-image" src="./assets/testimonial-section/profile.png" alt="profile">
+                <div class="kristin-info">
+                    <h5>Kristin Watson</h5>
+                    <a href="https://www.booking.com" target="_blank">Booking.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-services">
+        <div class="our-services-container">
+            <h2>Our Services</h2>
+            <div class="our-services-card-container">
+                <article class="our-services-article">
+                    <div class="our-services-card">
+                        <img src="./assets/services-section/icons/1.svg" alt="imagen-services-1">
+                    </div>
+                    <h4>User Interface Design</h4>
+                    <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                    <a href="./pages/project-Page/projectPage.html" target="_blank">Learn more</a>
+                </article>
+                <article class="our-services-article">
+                    <div class="our-services-card">
+                        <img src="./assets/services-section/icons/2.svg" alt="imagen-services-2">
+                    </div>
+                    <h4>User Experience Design</h4>
+                    <p>Circle always focuses on delivering the best user experience to your customers.</p>
+                    <a href="./pages/project-Page/projectPage.html" target="_blank" >Learn more</a>
+                </article>
+                <article class="our-services-article">
+                    <div class="our-services-card">
+                        <img src="./assets/services-section/icons/3.svg" alt="imagen-services-3">
+                    </div>
+                    <h4>Application Development</h4>
+                    <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+                    <a href="./pages/project-Page/projectPage.html" target="_blank">Learn more</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <h3>Do you have any questions?</h3>
+            <p>Let us help you!</p>            
+            <form action="submit">
+                <input placeholder="Enter your email" type="email" id="email" name="email" required>
+                <button class="blue-button" href="#contact-us" aria-label="Subscribe to the newsletter">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a class="circle-logo" href="#">
+                    <img src="./assets/logos/circle.svg" alt="logo-circle">
+                </a>
+                <address>
+                    <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                </address>
+            </div>
+            <div class="footer-links">
+                <a href="#" aria-label="Equipo">Team</a>
+                <a href="#" aria-label="Servicios">Services</a>
+                <a href="#" aria-label="Acerca de nosotros">About Us</a>
+                <a href="#" aria-label="Prensa">Press</a>
+                <a href="#" aria-label="Proyectos">Projects</a>
+                <a href="#" aria-label="Política de privacidad">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

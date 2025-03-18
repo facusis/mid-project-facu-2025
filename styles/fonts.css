@@ -1,0 +1,22 @@
+
+:root {
+    
+    /* Fuentes */
+    --font-primary: "Roboto", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* Tamaños de fuente */
+    --font-h1: 60px;
+    --font-h2: 50px;
+    --font-h3: 40px;
+    --font-h4: 24px;
+    --font-body-intro-lg: 24px;
+    --font-body-intro-sm: 20px;
+    --font-headline: 17px;
+    --font-caption-1: 15px;
+    --font-caption-2: 13px;
+
+
+}
