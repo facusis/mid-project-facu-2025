@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Project Facundo</title>
+    <link rel="stylesheet" href="/pages/contact/contact.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="div-logo">
+                    <a class="circle-logo" href="/index.html">
+                        <img src="/assets/logos/circle.svg" alt="logo-circle">
+                    </a>
+                </div>
+                <div class="div-menu">
+                    <ul class="nav-menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html#projects">Projects</a></li>
+                        <li><a href="/index.html#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="div-blue-button">
+                    <button class="blue-button" onclick="location.href='#contact-us'">Contact Us</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-us">
+            <div class="contact-us-container">
+                <h2 class="contact-us-title">Contact US</h2>
+                <form id="contactForm" action="">
+                    <label for="name"> Full Name*
+                        <input id="name" type="text" placeholder="Enter your full name">
+                    </label>
+                    <div class="form-container">
+                        <div class="form-field">
+                            <label class="label-email" for="email"> Email
+                                <input class="input-email" id="email" type="email"
+                                    placeholder="Enter your email address">
+                                <p class="hidden" id="emailError">Email format not valid</p>
+                            </label>
+                        </div>
+                        <div class="form-field">
+                            <label for="tel"> Phone
+                                <input id="tel" type="tel" placeholder="Enter your phone number">
+                            </label>
+                        </div>
+                    </div>
+                    <label for="message"> Message
+                        <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    </label>
+                    <button class="blue-button-btn" type="submit">Submit</button>
+                </form>
+                <!-- Modal -->
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="modal-close" id="closeModal">&times;</span>
+                        <div class="modal-title">
+                            <h2 class="modal-title-h2">¡Mensaje enviado!</h2>
+                            <p>Tu información ha sido enviada correctamente.</p>
+                            <p>Pronto nos pondremos en contacto contigo.</p>
+                        </div>
+                        <div class="modal-div-btn">
+                            <button id="closeBtn" class="modal-btn">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <a class="circle-logo" href="/index.html">
+                        <img src="/assets/logos/circle.svg" alt="logo-circle">
+                    </a>
+                    <address>
+                        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                    </address>
+                </div>
+                <div class="footer-links">
+                    <a href="#" aria-label="Equipo">Team</a>
+                    <a href="#" aria-label="Servicios">Services</a>
+                    <a href="#" aria-label="Acerca de nosotros">About Us</a>
+                    <a href="#" aria-label="Prensa">Press</a>
+                    <a href="#" aria-label="Proyectos">Projects</a>
+                    <a href="#" aria-label="Política de privacidad">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="/index.js"></script>
+</body>
+
+</html>

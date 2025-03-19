@@ -14,7 +14,7 @@ html {
 
 body {
     max-width: 144rem;
-    /* margin: auto; */
+    margin: auto;
 
 }
 
@@ -196,6 +196,11 @@ body {
 }
 
 /* --------------------------- PROJECTS SECTION ------------------------------*/
+
+#projects {
+    scroll-margin-top: 20rem; /* usado para que la seccion qude 'centrada' */
+}
+
 .recent-projects {
     height: 56.1rem;
     width: 110rem;
@@ -346,6 +351,10 @@ body {
 }
 
 /* --------------------------- OUR SERVICES SECTION ------------------------------*/
+
+#services {
+    scroll-margin-top: 20rem; /* usado para que la seccion qude 'centrada' */
+}
 
 .our-services {
     margin-bottom: 8rem;
