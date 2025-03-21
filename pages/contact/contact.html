@@ -36,21 +36,22 @@
         <section class="contact-us">
             <div class="contact-us-container">
                 <h2 class="contact-us-title">Contact US</h2>
-                <form id="contactForm" action="">
+                <form id="contactForm" novalidate action="">
                     <label for="name"> Full Name*
-                        <input id="name" type="text" placeholder="Enter your full name">
+                        <input class="contact-us-container-input" id="name" type="text" placeholder="Enter your full name">
                     </label>
                     <div class="form-container">
                         <div class="form-field">
                             <label class="label-email" for="email"> Email
-                                <input class="input-email" id="email" type="email"
+                                <input class="input-email contact-us-container-input" id="email" type="email"
                                     placeholder="Enter your email address">
                                 <p class="hidden" id="emailError">Email format not valid</p>
                             </label>
                         </div>
                         <div class="form-field">
                             <label for="tel"> Phone
-                                <input id="tel" type="tel" placeholder="Enter your phone number">
+                                <input class="contact-us-container-input" id="tel" type="tel" placeholder="Enter your phone number">
+                                <p class="hidden" id="telError">Phone format not valid</p>
                             </label>
                         </div>
                     </div>
@@ -96,7 +97,7 @@
             </div>
         </footer>
     </main>
-    <script src="/index.js"></script>
+    <script src="/contact.js"></script>
 </body>
 
 </html>

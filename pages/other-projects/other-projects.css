@@ -1,0 +1,74 @@
+@import url('/styles/main.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%; /* 62.5% de 16px = 10px */
+    font-family: var(--font-primary);
+}
+
+body {
+    max-width: 144rem;
+    margin: auto;
+
+}
+
+#other-projects {
+    scroll-margin-top: 15rem;
+}
+
+.simplify-section {
+    width: 144rem;
+    height: 118.1rem;
+    margin: 8rem auto;
+}
+
+.simplify-section-title {
+    font-size: var(--font-h1);
+    width: 110rem;
+    margin: 0 auto 4rem;
+
+}
+
+.simplify-section-date {
+    width: 110rem;
+    margin: 0 auto 4rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.simplify-section-date :nth-child(1) {
+    font-size: var(--font-body-intro-lg);
+    color: var(--grey);
+}
+
+.simplify-section-date :nth-child(2){
+    font-size: var(--font-body-intro-sm);
+    color: var(--grey);
+}
+
+.simplify-section-container {
+    width: 110rem;
+    height: 93.4rem;
+    margin: 0 auto 8rem;
+}
+
+.simplify-section-container img {
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 3rem;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.simplify-section-parrafo {
+    font-size: var(--font-body-intro-sm);
+    color: var(--grey);
+    line-height: 150%;
+}
